@@ -1,48 +1,56 @@
+<!-- Instrução que define o tipo do documento. -->
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Tag <head> contém as instruções para a página -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Móveis customizados</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <link rel="shortcut icon" href="images/Favicon.svg" type="image" />
-  <title>Flutuar</title>
-</head>
-<body>
-  <main>
-    <div class="container">
-      <img class="container__img" src="images/img1.png" alt="Pessoa segurando o globo com locais de viagem">
+  <!-- Tag <body> é o corpo do documento, onde tem as informações que serão mostradas. -->
+  <body>
+    <div id="hero">
+      <img id="pessoa"
+      src="images/img1.jpg"
+      alt="Desenho de uma pessoa vestindo uma camisa amarela em uma sala com Móveis"
+    />
+      <h1>Ambientes <span>únicos</span> para você!</h1>
+      <p>
+        Nós criamos ambientes <strong>exclusivos</strong> e <strong>únicos</strong>, com muito
+        bom gosto e profissionalismo, investimos tempo e
+        <strong>dedicação no seu projeto.</strong>
 
-      <h1 class="titulo__principal">O seu próximo <span>destino</span> pode estar aqui...</h1>
+        <br />
+        <br />
 
-      <p class="texto__principal">Aqui você encontra uma seleção de <strong>pacotes completos</strong> para as suas férias!
-      <br/>
-      <br/>
-      Na <span>Flutuar</span> você encontra pacotes de viagens nacionais e internacionais que incluem: passagens aéreas, hotéis, café da manhã, e até seguro viagem com <strong>preços arrasadores!</strong></p>
-
-      <p class="texto__secundario">Se você ainda não tem um destino definido, confira nossa seção de ofertas.
+        Tenha <span>ambientes limpos</span> e bem decorados, transmitindo
+        <strong>elegância</strong> e <strong>finesse</strong>
+        para todo aquele que estiver ali.
       </p>
     </div>
-  </main>
-  <footer>
-    <div class="rodape">
-      <div class="rodape__line"></div>
 
-      <div class="rodape__links">
-      <a href="#" target="_blank" class="rodape__link">Destinos</a>
-      <a href="#" target="_blank" class="rodape__link">Ofertas</a>
-      <a href="#" target="_blank" class="rodape__link">Contato</a>
-      </div>
-      <img class="rodape__wave" src="images/Wave.png" alt="Imagem que contem uma forma de onda">
+    <div id="footer">
+      <div class="line"></div>
+      <a target="_blank" href="https://instagram.com/moveisparavoce"
+        >Instagram</a
+      >
+      <a href="mailto:contato@moveisparavoce.com">Fale conosco</a>
     </div>
 
-  </footer>
-</body>
+    <img
+      id="balls"
+      src="images/balls.svg"
+      alt="Bolinhas alaranjadas no canto inferior direito da tela"
+    />
+  </body>
 </html>
